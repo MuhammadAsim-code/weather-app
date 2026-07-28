@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive weather app showing current temperature, conditions, and 5-day forecasts using real-time data.">
+    <meta name="author" content="Muhammad Asim">
+    <title>Weather App - Real-time Forecasts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🌤️</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🌤️ Weather App</h1>
+            <p>Get Real-time Weather Information</p>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Enter city name..."
+                    autocomplete="off"
+                >
+                <button id="searchBtn" class="search-btn">Search</button>
+            </div>
+            <div id="errorMsg" class="error-msg"></div>
+        </section>
+
+        <!-- Current Weather Section -->
+        <section class="weather-section">
+            <div id="currentWeather" class="current-weather">
+                <div class="weather-placeholder">
+                    <p>Enter a city name to get started 👆</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forecast Section -->
+        <section class="forecast-section">
+            <h2>5-Day Forecast</h2>
+            <div id="forecast" class="forecast-container">
+                <div class="forecast-placeholder">
+                    <p>Forecast will appear here</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading Spinner -->
+        <div id="loader" class="loader hidden">
+            <div class="spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>
+                Powered by 
+                <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">
+                    OpenWeatherMap API
+                </a>
+            </p>
+            <p>© 2026 Weather App by Muhammad Asim. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
