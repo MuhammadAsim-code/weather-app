@@ -1,0 +1,25 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (if you add npm later)
+node_modules/
+npm-debug.log
+.env
+.env.local
+
+# Build files
+dist/
+build/
+*.zip
+
+# Testing
+coverage/
+.nyc_output/
