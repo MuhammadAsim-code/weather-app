@@ -12,7 +12,7 @@
  */
 
 // Configuration
-const API_KEY = 'YOUR_API_KEY_HERE'; // Get free key from https://openweathermap.org/api
+const API_KEY = '047a3981af65739f16eeb62b07f6e136'; // Get free key from https://openweathermap.org/api
 const API_BASE = 'https://api.openweathermap.org/data/2.5';
 
 // Weather Icon Mapping
