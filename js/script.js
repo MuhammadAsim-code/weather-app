@@ -56,7 +56,7 @@ function handleSearch() {
         return;
     }
 
-    if (!API_KEY || API_KEY === 'YOUR_API_KEY_HERE') {
+    if (!API_KEY || API_KEY === '047a3981af65739f16eeb62b07f6e136') {
         showError(
             'API Key not configured. Get a free key from ' +
             'https://openweathermap.org/api and update the script.'
