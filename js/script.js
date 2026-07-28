@@ -12,7 +12,7 @@
  */
 
 // Configuration
-const API_KEY = '047a3981af65739f16eeb62b07f6e136'; // Get free key from https://openweathermap.org/api
+const API_KEY = '561ec6f35441dbf89d285abbe9821f25'; // Get free key from https://openweathermap.org/api
 const API_BASE = 'https://api.openweathermap.org/data/2.5';
 
 // Weather Icon Mapping
@@ -56,7 +56,7 @@ function handleSearch() {
         return;
     }
 
-    if (!API_KEY || API_KEY === '047a3981af65739f16eeb62b07f6e136') {
+    if (!API_KEY || API_KEY === '561ec6f35441dbf89d285abbe9821f25') {
         showError(
             'API Key not configured. Get a free key from ' +
             'https://openweathermap.org/api and update the script.'
